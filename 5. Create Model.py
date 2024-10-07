@@ -7,7 +7,7 @@
 import os
 
 host = "https://" + spark.conf.get("spark.databricks.workspaceUrl")
-os.environ['DATABRICKS_TOKEN'] = "dapic68b7e96795763a4acc21ea702c18390"
+os.environ['DATABRICKS_TOKEN'] = "Replace with databricks token"
 
 index_name="genai.rag.shipping_docs_index"
 VECTOR_SEARCH_ENDPOINT_NAME="marineintel_vector_search_endpoint"
